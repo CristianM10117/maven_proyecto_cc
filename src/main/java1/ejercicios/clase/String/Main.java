@@ -4,20 +4,17 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        //1 contains
-		
-		String frase = "Programacion de algoritmos módulo II"; 
-		
+        //1 contains		
+		String frase = "Programacion de algoritmos módulo II";	
 		Scanner L = new Scanner (System.in); 
 		Scanner L2 = new Scanner (System.in); 
-
 		
 		System.out.println("Ingrese una palabra: ");
 		String p = L.nextLine();
 		
 		boolean resultado = frase.contains(p); 
 		System.out.println("Contiene la palabra? "+ resultado);
-		
+
 		//2 equals
 		System.out.println("----------------------------------------------");
 		String cadena1 = "Cristian"; 
@@ -36,16 +33,6 @@ public class Main {
 		System.out.println("----------------------------------------------");
 		String nombre1 = "JUANITO"; 
 		String nombreEnMinuscula = nombre1.toLowerCase(); 
-		System.out.println("Nombre en Mayuscula: "+ nombreEnMinuscula);
-
-
-
-
-
-
-		
-		
-		
+		System.out.println("Nombre en Minuscula: "+ nombreEnMinuscula);	
 	}
-
 }
