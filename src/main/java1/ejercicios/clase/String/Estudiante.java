@@ -19,22 +19,5 @@ public String getApellido() {
 public void setApellido(String apellido) {
 	this.apellido = apellido;
 }
-public static String getCiudad() {
-	return ciudad;
-}
-public static void setCiudad(String ciudad) {
-	Estudiante.ciudad = ciudad;
-}
-public static String getParroquia() {
-	return parroquia;
-}
-public static void setParroquia(String parroquia) {
-	Estudiante.parroquia = parroquia;
-}
-
-
-
-	
-	
 	
 }
